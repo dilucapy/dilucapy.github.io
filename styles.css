@@ -1,0 +1,62 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 60px;
+    background-color: #e6f7ff; /* Un azul claro suave */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Encabezados */
+h1 {
+    color: #0056b3; /* Azul más oscuro para el encabezado */
+    margin-bottom: 30px;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Párrafos */
+p {
+    color: #555;
+    margin-bottom: 25px;
+    font-size: 1.1em;
+}
+
+/* Enlaces */
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el blog (ejemplo) */
+.blog-link {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.blog-link:hover {
+    background-color: #0056b3;
+}
